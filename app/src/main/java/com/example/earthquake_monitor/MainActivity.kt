@@ -9,6 +9,8 @@ import com.example.earthquake_monitor.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    //proyecto sin arquitectura y datos seteados localmente
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
