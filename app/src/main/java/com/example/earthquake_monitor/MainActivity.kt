@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.earthquake_monitor.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    //rama con arquitectura y consumo de api
 
     private lateinit var binding: ActivityMainBinding
 
