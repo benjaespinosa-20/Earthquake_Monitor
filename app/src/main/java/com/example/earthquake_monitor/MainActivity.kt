@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity() {
 
         val eqList = mutableListOf<Earthquake>()
         eqList.add(Earthquake("1", "Mexico", 4.3, 144343253, -122.3343, 28.1242214))
-        eqList.add(Earthquake("2", "Mexico", 5.3, 144343253, -122.3343, 28.1242214))
-        eqList.add(Earthquake("3", "Mexico", 9.3, 144343253, -122.3343, 28.1242214))
-        eqList.add(Earthquake("4", "Mexico", 2.3, 144343253, -122.3343, 28.1242214))
-        eqList.add(Earthquake("5", "Mexico", 7.3, 144343253, -122.3343, 28.1242214))
+        eqList.add(Earthquake("2", "Chile", 5.3, 144343253, -122.3343, 28.1242214))
+        eqList.add(Earthquake("3", "Peru", 9.3, 144343253, -122.3343, 28.1242214))
+        eqList.add(Earthquake("4", "Japon", 2.3, 144343253, -122.3343, 28.1242214))
+        eqList.add(Earthquake("5", "Tailandia", 7.3, 144343253, -122.3343, 28.1242214))
 
         val adapter = EqAdapter()
         binding.eqRecycler.adapter = adapter
